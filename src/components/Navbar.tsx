@@ -21,7 +21,8 @@ const Navbar = observer(() => {
         } else {
             return (
                 <div className={ classes.navbar }>
-                    <Link to="/" className={ classes.navbar__links }>Login</Link>
+                    <Link to="/login" className={ classes.navbar__links }>Войти</Link>
+                    <Link to="/register" className={ classes.navbar__links }>Регистрация</Link>
                 </div>
             );
         }

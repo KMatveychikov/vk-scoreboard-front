@@ -1,6 +1,6 @@
 import React, {useContext, useState} from 'react';
 import {Context} from "../index";
-import classes from '../styles/LoginForm.module.css';
+import classes from '../styles/Form.module.css';
 
 const LoginForm = () => {
     const [email, setEmail] = useState<string>('')
